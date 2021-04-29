@@ -1,0 +1,8 @@
+image: ubuntu:latest
+
+before_install:
+  - apt-get update
+  - apt-get upgrade -y
+script:
+  - ls
+  - echo "Done!"
