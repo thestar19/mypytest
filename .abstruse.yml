@@ -9,7 +9,7 @@ before_install:
   - python3 get-pip.py
   - pip3 install -r test-requirements.txt
   - apt install python2 -y
-  - apt install python-pip2 -y
+  - apt install python-pip -y
   - python2 -m pip install -U typing
   - 
 script:
