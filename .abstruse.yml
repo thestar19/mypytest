@@ -8,6 +8,7 @@ before_install:
   - curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
   - python3 get-pip.py
   - pip3 install -r test-requirements.txt
+  - apt install python2 -y
   - python2 -m pip install -U typing
   - 
 script:
