@@ -15,5 +15,5 @@ before_install:
   - python2 get-pip.py
 script:
   - ls
-  - ./runtests.py
+  - pytest -q mypy
   - echo "Done!"
