@@ -9,9 +9,8 @@ before_install:
   - python3 get-pip.py
   - pip3 install -r test-requirements.txt
   - apt install python2 -y
-  - apt install python-pip -y
-  - python2 -m pip install -U typing
-  - 
+  - curl https://bootstrap.pypa.io/pip/2.7/get-pip.py --output get-pip.py
+  - sudo python2 get-pip.py
 script:
   - ls
   - ./runtests.py
