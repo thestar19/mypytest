@@ -4,7 +4,7 @@ before_install:
   - apt-get update
   - apt-get upgrade -y
   - apt-get install python3-distutils -y
-  - apt install curl
+  - apt install curl -y
   - curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
   - python get-pip.py
   - pip3 install -r test-requirements.txt
